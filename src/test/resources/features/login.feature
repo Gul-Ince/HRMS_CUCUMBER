@@ -22,7 +22,7 @@ Feature: login
     Examples: 
       | Username | Password      | FirstName |
       | Admin    | Hum@nhrm123   | Admin     |
-      | Gince    | SyntaxHrm123! | Zuhaira   |
+      | Gulzuzu    | Nusaybah007! | gulsum255   |
 
   @invalidCredentials
   Scenario: Login with invalid credentials

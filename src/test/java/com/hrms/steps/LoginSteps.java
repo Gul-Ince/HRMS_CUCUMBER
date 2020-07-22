@@ -28,13 +28,13 @@ public class LoginSteps extends CommonMethods {
 
 	@When("I enter valid ESS username and password")
 	public void i_enter_valid_ESS_username_and_password() {
-		sendText(login.username, "Gince123");
-		sendText(login.password, "SyntaxHrm123!");
+		sendText(login.username, "Gulzuzu");
+		sendText(login.password, "Nusaybah007!");
 	}
 
 	@Then("I see Welcome ESS displayed")
 	public void i_see_Welcome_ESS_displayed() {
-		String expected = "Welcome Gulsum";
+		String expected = "Welcome gulsum255";
 		Assert.assertEquals(expected, dashboard.welcome.getText());
 		takeScreenshot("Welcome Gulsum");
 	}
@@ -54,7 +54,7 @@ public class LoginSteps extends CommonMethods {
 
 	@Then("{string} is successfully logged in")
 	public void is_successfully_logged_in(String string) {
-
+        wait(2);
 		Assert.assertEquals(string, dashboard.welcome.getText());
 
 	}
