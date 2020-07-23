@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 			, dryRun = false 
 			, strict = true
 			, monochrome = true
-			, tags = "@smoke"
+			, tags = "@regression"
 			, plugin = {
 					"pretty", 
 																						
@@ -26,7 +26,7 @@ import io.cucumber.junit.CucumberOptions;
 			)
 	
 	
-public class TestRunner {
+public class RegressionRunner {
 	
 	
 	

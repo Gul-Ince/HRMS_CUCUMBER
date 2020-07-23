@@ -13,7 +13,7 @@ Feature: login
     And I click login button
     Then I see Welcome ESS displayed
 
-  @validcredentials
+  @regression
   Scenario Outline: Entering new users
     When I enter valid "<Username>" and "<Password>"
     And I click login button
